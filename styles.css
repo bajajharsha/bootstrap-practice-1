@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100%; */
+}
+
+
+body {
+    background: hsla(332, 53%, 82%, 1);
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1);
+    background-repeat: repeat;
+    background-size: contain;
+    /* height: 100%; */
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.all-content {
+    height: 100%;
+}
+
+.star {
+    color: red;
+}
+
+.sign-in-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sign-in-link a:hover {
+    text-decoration: underline;
+}
+
+.login-btn,
+.register-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.match-pw {
+    color: red;
+    display: none;
+}
+
+.info-btn {
+    border: none;
+
+}
